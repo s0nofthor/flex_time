@@ -103,3 +103,19 @@ a {
 .info li {
     width: 20%;
 }
+/*Quote*/
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    gap: 2em;
+}
+
+.call, .resp, .source {
+    font-size: 36px;
+    font-style: italic;
+    width: 80%;
+    
+}
