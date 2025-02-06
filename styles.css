@@ -3,11 +3,9 @@
     display: flex;
     flex-direction: column;
 }
-
 title {
     display: none;
 }
-
 ul {
     padding-inline-start: 0;
 }
@@ -18,21 +16,17 @@ ul {
     flex-direction: row;
     justify-content: space-between;
 }
-
 .logo {
     height: 24px;
     width: 24px;
     align-self: center;
 }
-
 a {
     text-decoration: none;
 }
-
 .header a {
     color: aqua;
 }
-
 .header ul {
     flex-direction: row;
     padding: 0;
@@ -47,7 +41,6 @@ a {
     gap: 30px;
     height: 30em;
 }
-
 .text {
     max-width: 50%;
     display: flex;
@@ -55,23 +48,19 @@ a {
     justify-content: center;
     gap: 10px;
 }
-
 .Hero .main {
     font-size: 48px;
     font-weight: 900;
 }
-
 .Hero .second {
     font-size: 18px;
 }
-
 .Hero .button {
     background-color: #3882f6;
     color: #e5e7eb;
     width:fit-content;
     padding: .75em;
 }
-
 .bustermoves {
     max-width: 40%;
     max-height: 60%;
@@ -84,14 +73,12 @@ a {
     height: 30em;
     justify-content: space-evenly;
 }
-
 .topic {
     display: flex;
     align-self: center;
     font-size: 36px;
     font-weight: 900;
 }
-
 .info ul {
     flex-flow: row nowrap;
     max-width: 100%;
@@ -99,7 +86,6 @@ a {
     align-items: center;
     gap: 10px;
 }
-
 .info li {
     width: 20%;
 }
@@ -112,10 +98,31 @@ a {
     padding-bottom: 3em;
     gap: 2em;
 }
-
 .call, .resp, .source {
     font-size: 36px;
     font-style: italic;
     width: 80%;
+}
+/*Recommendations*/
+.recs {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 30%;
+    align-self: center;
+    background-color: #3882f6;
+    padding: 1em;
+    border-radius: 7px;
+}
+.my_part {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.reason {
     
+}
+.recs img {
+    max-width: 5%;
+    align-self: center;
 }
