@@ -9,6 +9,9 @@ title {
 ul {
     padding-inline-start: 0;
 }
+body {
+    margin: 0;
+}
 /* Header */
 .header {
     font-size: 18px;
@@ -125,4 +128,25 @@ a {
 .recs img {
     max-width: 5%;
     align-self: center;
+}
+/*Sources*/
+.credits {
+    gap: 10px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.credits ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.credits p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.credits p a {
+    display: contents;
 }
