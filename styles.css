@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1%;
 }
 .logo {
     height: 24px;
@@ -110,24 +111,28 @@ a {
 .recs {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 90%;
     height: 30%;
     align-self: center;
     background-color: #3882f6;
     padding: 1em;
     border-radius: 7px;
+    margin-top: 6em;
+    margin-bottom: 4em;
 }
 .my_part {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
+    justify-content: space-evenly;
+    font-size: 2vw;
 }
-.reason {
-    
+.reachme {
+    justify-content: center;
+    width: 25%;
 }
 .recs img {
-    max-width: 5%;
     align-self: center;
+    width: 90%;
 }
 /*Sources*/
 .credits {
