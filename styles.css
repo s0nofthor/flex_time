@@ -21,15 +21,16 @@ body {
     padding: 1%;
 }
 .logo {
-    height: 24px;
-    width: 24px;
+    height: 3em;
+    width: 3em;
     align-self: center;
 }
 a {
     text-decoration: none;
+    font-style: italic;
 }
 .header a {
-    color: aqua;
+
 }
 .header ul {
     flex-direction: row;
@@ -56,9 +57,7 @@ a {
     font-size: 48px;
     font-weight: 900;
 }
-.Hero .second {
-    font-size: 18px;
-}
+
 .Hero .button {
     background-color: #3882f6;
     color: #e5e7eb;
@@ -98,9 +97,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     gap: 2em;
+    background-color: #e5e7eb;
 }
 .call, .resp, .source {
     font-size: 36px;
@@ -140,6 +140,8 @@ a {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 .credits ul {
     display: flex;
@@ -154,4 +156,13 @@ a {
 }
 .credits p a {
     display: contents;
+}
+/*Flexboxes*/
+.container {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.second {
+    font-size: 18px;
+    color: #e5e7eb;
 }
