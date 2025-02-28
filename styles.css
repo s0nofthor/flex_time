@@ -29,9 +29,6 @@ a {
     text-decoration: none;
     font-style: italic;
 }
-.header a {
-
-}
 .header ul {
     flex-direction: row;
     padding: 0;
@@ -53,16 +50,10 @@ a {
     justify-content: center;
     gap: 10px;
 }
-.Hero .main {
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.Hero .button {
+.Hero {
+    .button {
     background-color: #3882f6;
-    color: #e5e7eb;
-    width:fit-content;
-    padding: .75em;
+    }
 }
 .bustermoves {
     max-width: 40%;
@@ -114,25 +105,36 @@ a {
     width: 90%;
     height: 30%;
     align-self: center;
+    justify-content: space-evenly;
     background-color: #3882f6;
     padding: 1em;
     border-radius: 7px;
     margin-top: 6em;
     margin-bottom: 4em;
+
+    .button {
+        border-style: solid;
+        border-color: #f9faf8;
+        align-self: center;
+        text-align: center;
+    }
 }
-.my_part {
+.prompt {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     font-size: 2vw;
+    flex: 3;
 }
-.reachme {
+.button-wrapper {
     justify-content: center;
-    width: 25%;
-}
-.recs img {
     align-self: center;
-    width: 90%;
+    flex: 1;
+}
+.prompt {
+    div {
+        text-align: center;
+    }
 }
 /*Sources*/
 .credits {
@@ -142,27 +144,41 @@ a {
     padding-bottom: 2%;
     background-color: #1f2937;
     color: #f9faf8;
-}
-.credits ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.credits p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.credits p a {
-    display: contents;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    
+        a {
+        display: contents;
+        }
+    }
 }
 /*Flexboxes*/
-.container {
+.top-wrapper {
     background-color: #1f2937;
-    color: #f9faf8;
 }
 .second {
     font-size: 18px;
     color: #e5e7eb;
+}
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.button {
+    font-weight: bold;
+    width:fit-content;
+    height: fit-content;
+    color: #e5e7eb;
+    padding: .75em;
+    border-radius: 10px;
 }
