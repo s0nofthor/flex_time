@@ -12,14 +12,28 @@ ul {
 body {
     margin: 0;
 }
+img {
+    border-radius: 10px;
+}
+/*Boxes*/
+.top-wrapper {
+    background-color: #1f2937;
+    height: 100vh;
+}
 /* Header */
 .header {
-    font-size: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1%;
+    padding: 1vw;
+
+    ul {
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    gap: 2vw;
 }
+}   
 .logo {
     height: 3em;
     width: 3em;
@@ -29,31 +43,25 @@ a {
     text-decoration: none;
     font-style: italic;
 }
-.header ul {
-    flex-direction: row;
-    padding: 0;
-    align-items: center;
-    gap: 10px;
-}
 /*Hero*/
 .Hero {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 30px;
-    height: 30em;
+    gap: 1vw;
+    height: 75vh;
+    padding: 2vw;
+
+    .button {
+        background-color: #3882f6;
+        }
 }
 .text {
-    max-width: 50%;
+    max-width: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-}
-.Hero {
-    .button {
-    background-color: #3882f6;
-    }
 }
 .bustermoves {
     max-width: 40%;
@@ -64,53 +72,59 @@ a {
 /*Info*/
 .info {
     display: flex;
-    height: 30em;
+    height: 100vh;
     justify-content: space-evenly;
+
+    ul {
+        flex-flow: row nowrap;
+        max-width: 100vw;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px;
+    }
+    li {
+        width: 20vw;
+    }
 }
 .topic {
     display: flex;
     align-self: center;
-    font-size: 36px;
+    font-size: 5vw;
     font-weight: 900;
 }
-.info ul {
-    flex-flow: row nowrap;
-    max-width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 10px;
-}
-.info li {
-    width: 20%;
+.desc {
+    text-align: center;
+    font-size: 2vw;
 }
 /*Quote*/
 .quote {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     padding-top: 5em;
     padding-bottom: 5em;
     gap: 2em;
     background-color: #e5e7eb;
 }
 .call, .resp, .source {
-    font-size: 36px;
+    font-size: 4vw;
     font-style: italic;
-    width: 80%;
+    width: 80vw;
 }
 /*Recommendations*/
 .recs {
     display: flex;
     flex-direction: row;
-    width: 90%;
-    height: 30%;
+    width: 90vw;
+    height: 35vh;
     align-self: center;
     justify-content: space-evenly;
     background-color: #3882f6;
     padding: 1em;
     border-radius: 7px;
-    margin-top: 6em;
-    margin-bottom: 4em;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 
     .button {
         border-style: solid;
@@ -123,18 +137,16 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 2vw;
     flex: 3;
+
+    div {
+        text-align: center;
+    }
 }
 .button-wrapper {
     justify-content: center;
     align-self: center;
     flex: 1;
-}
-.prompt {
-    div {
-        text-align: center;
-    }
 }
 /*Sources*/
 .credits {
@@ -161,24 +173,23 @@ a {
         }
     }
 }
-/*Flexboxes*/
-.top-wrapper {
-    background-color: #1f2937;
-}
 .second {
-    font-size: 18px;
+    font-size: 2vw;
     color: #e5e7eb;
 }
 .main {
-    font-size: 48px;
+    font-size: 5vw;
     font-weight: 900;
     color: #f9faf8;
 }
 .button {
     font-weight: bold;
-    width:fit-content;
-    height: fit-content;
+    text-align: center;
+    justify-content: center;
+    width: 12vw;
+    height: 3.5vw;
     color: #e5e7eb;
-    padding: .75em;
-    border-radius: 10px;
+    padding: 1.5vw;
+    border-radius: 2vw;
+    font-size: 2vw;
 }
